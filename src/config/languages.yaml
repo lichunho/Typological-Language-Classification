@@ -19,7 +19,17 @@ languages:
     family: Sino-Tibetan
     sample_text: "你好，感謝你使用我們的語言識別器"
     iso2: zh
-  
+  - code: jpn
+    name: Japanese
+    family: Japonic
+    sample_text: "こんにちは、言語識別器をご利用いただきありがとうございます。"
+    iso2: ja
+  - code: kor
+    name: Korean
+    family: Koreanic
+    sample_text: "안녕하세요, 우리의 언어 식별기를 사용해 주셔서 감사합니다."
+    iso2: ko
 
+  
 
 

@@ -1,9 +1,9 @@
 {
   "summary": {
     "eng": {
-      "precision": 1.0,
-      "recall": 1.0,
-      "f1-score": 1.0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
       "support": 1.0
     },
     "fra": {
@@ -12,11 +12,23 @@
       "f1-score": 0.5,
       "support": 1.0
     },
+    "jpn": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 1.0
+    },
+    "kor": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 2.0
+    },
     "spa": {
       "precision": 0.0,
       "recall": 0.0,
       "f1-score": 0.0,
-      "support": 2.0
+      "support": 1.0
     },
     "zho": {
       "precision": 1.0,
@@ -24,23 +36,23 @@
       "f1-score": 1.0,
       "support": 1.0
     },
-    "accuracy": 0.6,
+    "accuracy": 0.7142857142857143,
     "macro avg": {
-      "precision": 0.5833333333333333,
-      "recall": 0.75,
-      "f1-score": 0.625,
-      "support": 5.0
+      "precision": 0.5555555555555555,
+      "recall": 0.6666666666666666,
+      "f1-score": 0.5833333333333334,
+      "support": 7.0
     },
     "weighted avg": {
-      "precision": 0.4666666666666666,
-      "recall": 0.6,
-      "f1-score": 0.5,
-      "support": 5.0
+      "precision": 0.619047619047619,
+      "recall": 0.7142857142857143,
+      "f1-score": 0.6428571428571429,
+      "support": 7.0
     }
   },
   "top_k": {
     "k": 3,
-    "accuracy": 0.8
+    "accuracy": 0.8571428571428571
   },
   "grid_search": null
 }
