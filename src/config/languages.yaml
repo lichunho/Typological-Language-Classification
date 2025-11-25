@@ -14,6 +14,12 @@ languages:
     family: Romance
     sample_text: "Hola y gracias por utilizar nuestro identificador de idiomas."
     iso2: es
+  - code: zho
+    name: Mandarin Chinese
+    family: Sino-Tibetan
+    sample_text: "你好，感謝你使用我們的語言識別器"
+    iso2: zh
+  
 
 
 

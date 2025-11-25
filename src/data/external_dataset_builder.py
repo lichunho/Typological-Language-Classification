@@ -1,5 +1,5 @@
 """
-Build a dataset from external sources (not WiLI-2018) for English, French, and Spanish.
+Build a dataset from external sources (not WiLI-2018) for English, French, Spanish, and Mandarin.
 Uses multiple open data sources to create a diverse dataset.
 """
 from __future__ import annotations
@@ -23,6 +23,7 @@ LANG_MAP = {
     "eng": {"name": "English", "code2": "en"},
     "fra": {"name": "French", "code2": "fr"},
     "spa": {"name": "Spanish", "code2": "es"},
+    "zho": {"name": "Mandarin", "code2": "zh"},
 }
 
 # Curated sample texts for each language (diverse topics)
@@ -77,6 +78,23 @@ FALLBACK_TEXTS = {
         "La investigación médica continúa avanzando en tratamientos y mejorando la calidad de vida de millones.",
         "La educación es fundamental para el crecimiento personal y el progreso social en el mundo moderno.",
         "La diversidad cultural enriquece las comunidades y promueve la comprensión entre diferentes grupos.",
+    ],
+    "zho": [
+        "敏捷的棕色狐狸跳過了懶惰的狗。這是一段用於語言識別的中文文本示例。",
+        "機器學習是人工智慧的一個子集，專注於演算法和統計模型。",
+        "自然語言處理使電腦能夠以有價值的方式理解和處理人類語言。",
+        "Python 是一種高級程式語言，以其簡潔性和可讀性而聞名。",
+        "數據科學結合了統計學、程式設計和領域專業知識，以從數據中提取見解。",
+        "氣候變遷是 21 世紀人類面臨的最緊迫的挑戰之一。",
+        "文藝復興時期是文化復興的時期，它改變了歐洲的藝術、文學和科學。",
+        "量子計算代表了計算能力和問題解決能力的範式轉移。",
+        "民主需要公民的積極參與才能有效運作並代表不同的利益。",
+        "太空探索擴展了我們對宇宙以及我們在宇宙中位置的理解。",
+        "互聯網徹底改變了全球的通訊、商業和資訊獲取方式。",
+        "太陽能和風能等再生能源對永續發展至關重要。",
+        "醫學研究不斷推進治療方法，改善數百萬人的生活品質。",
+        "教育是現代世界個人成長和社會進步的基礎。",
+        "文化多樣性豐富了社區，促進了不同群體之間的相互理解。",
     ],
 }
 
@@ -325,4 +343,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
